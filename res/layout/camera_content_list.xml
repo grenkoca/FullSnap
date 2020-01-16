@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" />
+    <RelativeLayout android:id="@id/v_footer" android:background="@color/bg_footer" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/btn_text_white" android:gravity="center" android:id="@id/btn_receive" android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/MID_IMPORT_EXEC_IMPORT" android:lines="1" android:singleLine="true" android:textAllCaps="false" />
+    </RelativeLayout>
+    <ImageView android:id="@id/v_preloader" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/preloader_normal" android:layout_centerInParent="true" />
+</RelativeLayout>

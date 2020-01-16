@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_bg" android:background="@null" android:layout_width="100.0dip" android:layout_height="150.0dip" android:scaleType="fitXY" />
+    <ImageView android:id="@id/iv_cell" android:background="@null" android:layout_width="192.0dip" android:layout_height="150.0dip" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/fsize_18dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="left" android:id="@id/lbl_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="@dimen/margin_16dp" android:text="" android:textAllCaps="false" />
+        <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/dark_gray" android:gravity="left" android:id="@id/lbl_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="@dimen/margin_16dp" android:text="" android:textAllCaps="false" />
+    </LinearLayout>
+    <Button android:id="@id/btn_cell" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="150.0dip" />
+</RelativeLayout>

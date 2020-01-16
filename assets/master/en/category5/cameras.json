@@ -1,0 +1,27 @@
+{
+	"version":2.2,
+	"root_url":"master/common",
+	"camera": [
+		{
+			"camera_id":501,
+			"version":1.1,
+			"product_name":"Z 7",
+			"name_img":"logo_z7_img_3x.png",
+			"real_img":"z7_img_3x.png"
+		},
+		{
+			"camera_id":502,
+			"version":1.1,
+			"product_name":"Z 6",
+			"name_img":"logo_z6_img_3x.png",
+			"real_img":"z6_img_3x.png"
+		},
+		{
+			"camera_id":503,
+			"version":1,
+			"product_name":"Z 50",
+			"name_img":"logo_z50_img_3x.png",
+			"real_img":"z50_img_3x.png"
+		}
+	]
+}

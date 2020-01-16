@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/bg_bar" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="2.0dip" android:src="@drawable/tab_camera_normal" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="2.0dip" android:src="@drawable/tab_device_normal" android:scaleType="center" android:layout_weight="1.0" android:alpha="0.5" />
+        <ImageView android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="2.0dip" android:src="@drawable/tab_cloud_normal" android:scaleType="center" android:layout_weight="1.0" android:alpha="0.5" />
+    </LinearLayout>
+    <com.nikon.snapbridge.cmru.frontend.ui.NklTopCropRelativeLayout android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginTop="48.0dip">
+        <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center" android:id="@id/lbl_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:text="@string/MID_CAM_PAIRING_SELECT_LB" android:layout_centerVertical="true" android:textAllCaps="false" />
+    </com.nikon.snapbridge.cmru.frontend.ui.NklTopCropRelativeLayout>
+    <ListView android:id="@id/tableview" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="138.0dip" android:divider="@null" android:dividerHeight="0.0dip" />
+</RelativeLayout>
